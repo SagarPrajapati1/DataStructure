@@ -137,7 +137,7 @@ int main()
 	Node *first = takeInput();
 	Node *second = takeInput();
 
-	Node *ansHead = addTwoLists(first, second);
+	Node *ansHead = add(first, second);
 	print(ansHead);
 
 	return 0;
