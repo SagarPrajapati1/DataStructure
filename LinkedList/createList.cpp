@@ -189,15 +189,15 @@ int main()
 {
 	Node *head = takeInput();
 	print(head);
-	int len = getLength(head);
-	cout << "Length of linked list is -> " << len << endl;
+	// int len = getLength(head);
+	// cout << "Length of linked list is -> " << len << endl;
 
-	if(isCircular(head)) {
-		cout << "List is circular " << endl;
-	}
-	else {
-		cout << "List is not circular " << endl;
-	}
+	// if(isCircular(head)) {
+	// 	cout << "List is circular " << endl;
+	// }
+	// else {
+	// 	cout << "List is not circular " << endl;
+	// }
 
 	/* int i, data;
 	cout << "Enyter the value of i and data to be inserted : ";

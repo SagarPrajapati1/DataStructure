@@ -1,2 +1,2 @@
-
-		slow = s
+	Node *reverseHead = reverseList(head);
+	print(head);
